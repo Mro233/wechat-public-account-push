@@ -119,8 +119,6 @@ const USER_CONFIG = {
     }
   ],
 
-}
-
 SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
@@ -134,9 +132,6 @@ SLOT_LIST: [
         '遇见你，就好像捡到了100斤的运气'
       ],
     }
-    // 你可以不断按格式往下增加
-    // ...
-  ],
-}
+],
 
 module.exports = USER_CONFIG
