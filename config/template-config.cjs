@@ -18,8 +18,6 @@ const TEMPLATE_CONFIG = [
       
       风向: {{wind_direction.DATA}} ，风级: {{wind_scale.DATA}}
       
-      {{comprehensive_horoscope.DATA}}
-      
       ---
       
       今天是我们相识的第{{see_day.DATA}}天
@@ -40,10 +38,10 @@ const TEMPLATE_CONFIG = [
       
       {{moment_copyrighting.DATA}} 
       
-      {{comprehensive_horoscope.DATA}} 
-      
       {{note_en.DATA}} 
       {{note_ch.DATA}} 
+      
+      {{comprehensive_horoscope.DATA}} 
       
       {{poison_chicken_soup.DATA}} 
     `
@@ -83,8 +81,6 @@ const TEMPLATE_CONFIG = [
       
       风向: {{wind_direction.DATA}} ，风级: {{wind_scale.DATA}}
       
-      {{comprehensive_horoscope.DATA}}
-      
       ---
       
       今天是我们相识的第{{see_day.DATA}}天
@@ -103,10 +99,10 @@ const TEMPLATE_CONFIG = [
       
       {{moment_copyrighting.DATA}} 
       
-      {{comprehensive_horoscope.DATA}} 
-      
       {{note_en.DATA}} 
       {{note_ch.DATA}} 
+      
+      {{comprehensive_horoscope.DATA}} 
       
       {{poison_chicken_soup.DATA}} 
     `
@@ -129,8 +125,6 @@ const TEMPLATE_CONFIG = [
       
       风向: {{wind_direction.DATA}} ，风级: {{wind_scale.DATA}}
       
-      {{comprehensive_horoscope.DATA}}
-      
       ---
       
       今天是我们相识的第{{see_day.DATA}}天
@@ -151,10 +145,10 @@ const TEMPLATE_CONFIG = [
       
       {{moment_copyrighting.DATA}} 
       
-      {{comprehensive_horoscope.DATA}} 
-      
       {{note_en.DATA}} 
       {{note_ch.DATA}} 
+      
+      {{comprehensive_horoscope.DATA}} 
       
       {{poison_chicken_soup.DATA}} 
     `
