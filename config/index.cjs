@@ -129,17 +129,17 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '汪汪队长', year: '2002', date: '05-10',
+          type: '*生日', name: '汪汪队长', year: '2002', date: '05-10', isShowAge: true,
         },
         {
-          type: '*生日', name: '飞飞', year: '1999', date: '08-06',
+          type: '*生日', name: '飞飞', year: '1999', date: '08-06', isShowAge: true,
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '节日', name: '恋爱纪念日', year: '2021', date: '04-05',
-        }
+        },
         {
-          type: '节日', name: '考研', year: '2022', date: '12-23',
+          type: '节日', name: '考研', year: '2021', date: '12-23',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -160,10 +160,10 @@ const USER_CONFIG = {
       openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
       festivals: [
         {
-          type: '*生日', name: '汪汪队长', year: '2002', date: '05-10',
+          type: '*生日', name: '汪汪队长', year: '2002', date: '05-10', isShowAge: true,
         },
         {
-          type: '*生日', name: '飞飞', year: '1999', date: '08-06',
+          type: '*生日', name: '飞飞', year: '1999', date: '08-06', isShowAge: true,
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -187,10 +187,10 @@ const USER_CONFIG = {
       openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
       festivals: [
         {
-          type: '*生日', name: '小惠', year: '2004', date: '11-14',
+          type: '*生日', name: '小惠', year: '2004', date: '11-14', isShowAge: true,
         },
         {
-          type: '*生日', name: '飞飞', year: '2001', date: '08-06',
+          type: '*生日', name: '飞飞', year: '2001', date: '08-06', 
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -213,10 +213,10 @@ const USER_CONFIG = {
       openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
       festivals: [
         {
-          type: '*生日', name: '陈大帅', year: '2000', date: '09-12',
+          type: '*生日', name: '陈大帅', year: '2000', date: '09-12', isShowAge: true,
         },
         {
-          type: '*生日', name: '飞飞', year: '1999', date: '08-06',
+          type: '*生日', name: '飞飞', year: '1999', date: '08-06', isShowAge: true,
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
