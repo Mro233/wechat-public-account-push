@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '汪汪队长，元气满满，加油考研',
     desc: `
       **{{date.DATA}}**
       
@@ -10,29 +10,42 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      城市：{{city.DATA}}
+      城市：{{province.DATA}}-{{city.DATA}}
       
-      天气：{{weather.DATA}}
+      天气：{{weather.DATA}}，{{notice.DATA}}
       
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向: {{wind_direction.DATA}}
-      
-      风级: {{wind_scale.DATA}}
+      风向: {{wind_direction.DATA}} ，风级: {{wind_scale.DATA}}
       
       {{comprehensive_horoscope.DATA}}
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们相识的第{{see_day.DATA}}天
+      
+      今天是我们恋爱的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
       ---
       
-      {{moment_copyrighting.DATA}}
+      {{lover_prattle.DATA}} 
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      {{earthy_love_words.DATA}} 
+      
+      {{one_talk.DATA}} -- {{talk_from.DATA}} 
+      
+      {{poetry_title.DATA}} -- {{poetry_content.DATA}} 
+      
+      {{moment_copyrighting.DATA}} 
+      
+      {{comprehensive_horoscope.DATA}} 
+      
+      {{note_en.DATA}} 
+      {{note_ch.DATA}} 
+      
+      {{poison_chicken_soup.DATA}} 
     `
   },
   {
@@ -50,6 +63,100 @@ const TEMPLATE_CONFIG = [
       成功用户: {{success_post_ids.DATA}}
       
       失败用户: {{fail_post_ids.DATA}}
+    `
+  },
+    {
+    id: '0003',
+    title: '小惠呀，元气满满，加油求学',
+    desc: `
+      **{{date.DATA}}**
+      
+      下个休息日：{{holidaytts.DATA}}
+      
+      ---
+      
+      城市：{{province.DATA}}-{{city.DATA}}
+      
+      天气：{{weather.DATA}}，{{notice.DATA}}
+      
+      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向: {{wind_direction.DATA}} ，风级: {{wind_scale.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+      
+      ---
+      
+      今天是我们相识的第{{see_day.DATA}}天
+      
+      {{birthday_message.DATA}}
+      
+      ---
+      
+      {{lover_prattle.DATA}} 
+      
+      {{earthy_love_words.DATA}} 
+      
+      {{one_talk.DATA}} -- {{talk_from.DATA}} 
+      
+      {{poetry_title.DATA}} -- {{poetry_content.DATA}} 
+      
+      {{moment_copyrighting.DATA}} 
+      
+      {{comprehensive_horoscope.DATA}} 
+      
+      {{note_en.DATA}} 
+      {{note_ch.DATA}} 
+      
+      {{poison_chicken_soup.DATA}} 
+    `
+  },
+    {
+    id: '0004',
+    title: '飞飞呀，元气满满，加油求学',
+    desc: `
+      **{{date.DATA}}**
+      
+      下个休息日：{{holidaytts.DATA}}
+      
+      ---
+      
+      城市：{{province.DATA}}-{{city.DATA}}
+      
+      天气：{{weather.DATA}}，{{notice.DATA}}
+      
+      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向: {{wind_direction.DATA}} ，风级: {{wind_scale.DATA}}
+      
+      {{comprehensive_horoscope.DATA}}
+      
+      ---
+      
+      今天是我们相识的第{{see_day.DATA}}天
+      
+      今天是我们恋爱的第{{love_day.DATA}}天
+      
+      {{birthday_message.DATA}}
+      
+      ---
+      
+      {{lover_prattle.DATA}} 
+      
+      {{earthy_love_words.DATA}} 
+      
+      {{one_talk.DATA}} -- {{talk_from.DATA}} 
+      
+      {{poetry_title.DATA}} -- {{poetry_content.DATA}} 
+      
+      {{moment_copyrighting.DATA}} 
+      
+      {{comprehensive_horoscope.DATA}} 
+      
+      {{note_en.DATA}} 
+      {{note_ch.DATA}} 
+      
+      {{poison_chicken_soup.DATA}} 
     `
   },
 ]
