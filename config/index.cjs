@@ -10,7 +10,7 @@ const USER_CONFIG = {
   // 使用【微信测试号】请填写 wechat-test
   // 使用【方糖服务号】请填写 server-chan
   // 使用【pushplus推送加服务号】请填写 push-plus
-  USE_PASSAGE: 'wechat-test',
+  USE_PASSAGE: 'push-plus',
   
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -111,10 +111,10 @@ const USER_CONFIG = {
       name: '汪汪队长',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oNHV06gHBL8gL3VX84z4PNt5RJF8',
+      id: '176f8af83479473b9d52fd1fd7ff075e',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'Ni8xTdwSAgwrSeK7vaiYoVtlkNWiCMu9Rqt8A8mzSLk',
+      useTemplateId: '0001',
       // 所在省份或城市，也可以不填
       province: '重庆',
       // 所在城市或县区
@@ -148,8 +148,8 @@ const USER_CONFIG = {
     },
     {
       name: '飞飞',
-      id: 'oNHV06qCnzOwWnXp1Iu9_Adj7r_o',
-      useTemplateId: 'Ni8xTdwSAgwrSeK7vaiYoVtlkNWiCMu9Rqt8A8mzSLk',
+      id: 'd47b2848fa2d461db83e6348484b5ce9',
+      useTemplateId: '0004',
       province: '重庆',
       city: '南岸',
       horoscopeDate: '09-15',
@@ -209,7 +209,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: 'HkWG5fCZEnxoNMClKHiKQhEbFdnffMcN0CfUIsLXo2Y',
+  CALLBACK_TEMPLATE_ID: '0002',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -218,7 +218,7 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oNHV06qCnzOwWnXp1Iu9_Adj7r_o',
+      id: 'd47b2848fa2d461db83e6348484b5ce9',
     }
     // 你可以不断按格式往下增加
     // ...
