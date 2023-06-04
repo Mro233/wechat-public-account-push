@@ -147,16 +147,30 @@ const USER_CONFIG = {
       ],
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+      name: '飞飞',
+      id: 'oNHV06qCnzOwWnXp1Iu9_Adj7r_o',
+      useTemplateId: 'Ni8xTdwSAgwrSeK7vaiYoVtlkNWiCMu9Rqt8A8mzSLk',
+      province: '重庆',
+      city: '南岸',
+      horoscopeDate: '09-15',
+      horoscopeDateType: '今日',
+      openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
+      festivals: [
+        {
+          type: '*生日', name: '汪汪队长', year: '2002', date: '05-10',
+        },
+        {
+          type: '*生日', name: '飞飞', year: '1999', date: '08-06',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '节日', name: '第一次见面', year: '2021', date: '03-20',
+        }
+      ],
+      customizedDateList: [
+        { keyword: 'see_day', date: '2021-03-20' },
+        { keyword: 'love_day', date: '2021-04-05' },
+      ],
       courseSchedule: null
     },
     {
@@ -195,7 +209,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'HkWG5fCZEnxoNMClKHiKQhEbFdnffMcN0CfUIsLXo2Y',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -204,7 +218,7 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: '',
+      id: 'oNHV06qCnzOwWnXp1Iu9_Adj7r_o',
     }
     // 你可以不断按格式往下增加
     // ...
