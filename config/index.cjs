@@ -174,16 +174,29 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+       name: '小惠',
+      id: '6cad923300d1445bb98992696e9bcb46',
+      useTemplateId: '0003',
+      province: '重庆',
+      city: '江津',
+      horoscopeDate: '12-25',
+      horoscopeDateType: '今日',
+      openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
+      festivals: [
+        {
+          type: '*生日', name: '小惠', year: '2004', date: '11-14',
+        },
+        {
+          type: '*生日', name: '飞飞', year: '2001', date: '08-06',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '节日', name: '第一次见面', year: '2022', date: '10-29',
+        }
+      ],
+      customizedDateList: [
+        { keyword: 'see_day', date: '2022-10-29' },
+      ],
       courseSchedule: null
     },
     {
@@ -287,7 +300,7 @@ const USER_CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
