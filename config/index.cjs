@@ -204,7 +204,7 @@ const USER_CONFIG = {
     },
     {
       name: '陈大帅',
-      id: 'd47b2848fa2d461db83e6348484b5ce9',
+      id: '68061dd391644f27bde4962337c11648',
       useTemplateId: '0005',
       province: '重庆',
       city: '南岸',
