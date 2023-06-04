@@ -199,19 +199,6 @@ const USER_CONFIG = {
       ],
       courseSchedule: null
     },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    }
     // 你可以不断按格式往下增加
     // ...
   ],
