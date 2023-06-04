@@ -63,7 +63,7 @@ const TEMPLATE_CONFIG = [
       失败用户: {{fail_post_ids.DATA}}
     `
   },
-    {
+  {
     id: '0003',
     title: '小惠呀，元气满满，加油求学',
     desc: `
@@ -107,7 +107,7 @@ const TEMPLATE_CONFIG = [
       {{poison_chicken_soup.DATA}} 
     `
   },
-    {
+  {
     id: '0004',
     title: '飞飞呀，元气满满，加油求学',
     desc: `
@@ -138,6 +138,46 @@ const TEMPLATE_CONFIG = [
       {{lover_prattle.DATA}} 
       
       {{earthy_love_words.DATA}} 
+      
+      {{one_talk.DATA}} -- {{talk_from.DATA}} 
+      
+      {{poetry_title.DATA}} -- {{poetry_content.DATA}} 
+      
+      {{moment_copyrighting.DATA}} 
+      
+      {{note_en.DATA}} 
+      {{note_ch.DATA}} 
+      
+      {{comprehensive_horoscope.DATA}} 
+      
+      {{poison_chicken_soup.DATA}} 
+    `
+  },
+  {
+    id: '0005',
+    title: '陈大帅，元气满满，加油求学',
+    desc: `
+      **{{date.DATA}}**
+      
+      下个休息日：{{holidaytts.DATA}}
+      
+      ---
+      
+      城市：{{province.DATA}}-{{city.DATA}}
+      
+      天气：{{weather.DATA}}，{{notice.DATA}}
+      
+      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向: {{wind_direction.DATA}} ，风级: {{wind_scale.DATA}}
+      
+      ---
+      
+      今天是我们相识的第{{see_day.DATA}}天
+      
+      {{birthday_message.DATA}}
+      
+      ---
       
       {{one_talk.DATA}} -- {{talk_from.DATA}} 
       
