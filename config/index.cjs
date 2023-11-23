@@ -177,34 +177,34 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-       name: '小惠',
-      id: '6cad923300d1445bb98992696e9bcb46',
+       name: '燕砸',
+      id: '',
       useTemplateId: '0003',
-      province: '重庆',
-      city: '江津',
-      horoscopeDate: '12-25',
+      province: '广东',
+      city: '深圳',
+      horoscopeDate: '08-23',
       horoscopeDateType: '今日',
       openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
       festivals: [
         {
-          type: '*生日', name: '小惠', year: '2004', date: '11-14', isShowAge: true,
+          type: '*生日', name: '燕砸', year: '2004', date: '08-23', isShowAge: true,
         },
         {
           type: '*生日', name: '飞飞', year: '2001', date: '08-06', 
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '节日', name: '第一次见面', year: '2022', date: '10-29',
+          type: '节日', name: '第一次见面', year: '2023', date: '10-22',
         }   
       ],
       customizedDateList: [
-        { keyword: 'see_day', date: '2022-10-29' },
+        { keyword: 'see_day', date: '2023-10-22' },
       ],
       courseSchedule: null
     },
     {
       name: '陈大帅',
-      id: '68061dd391644f27bde4962337c11648',
+      id: '',
       useTemplateId: '0005',
       province: '重庆',
       city: '南岸',
@@ -225,6 +225,32 @@ const USER_CONFIG = {
       ],
       customizedDateList: [
         { keyword: 'see_day', date: '2019-08-30' },
+      ],
+      courseSchedule: null
+    },
+        {
+       name: '小惠',
+      id: '6cad923300d1445bb98992696e9bcb46',
+      useTemplateId: '',
+      province: '重庆',
+      city: '江津',
+      horoscopeDate: '12-25',
+      horoscopeDateType: '今日',
+      openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
+      festivals: [
+        {
+          type: '*生日', name: '小惠', year: '2004', date: '11-14', isShowAge: true,
+        },
+        {
+          type: '*生日', name: '飞飞', year: '2001', date: '08-06', 
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '节日', name: '第一次见面', year: '2022', date: '10-29',
+        }   
+      ],
+      customizedDateList: [
+        { keyword: 'see_day', date: '2022-10-29' },
       ],
       courseSchedule: null
     },
