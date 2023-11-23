@@ -65,7 +65,7 @@ const TEMPLATE_CONFIG = [
   },
   {
     id: '0003',
-    title: '小惠呀，元气满满，加油求学',
+    title: '燕砸，元气满满，加油求学',
     desc: `
       **{{date.DATA}}**
       
