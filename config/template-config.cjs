@@ -147,6 +147,7 @@ const TEMPLATE_CONFIG = [
       {{poison_chicken_soup.DATA}} 
     `
   },
+  /*
   {
     id: '0005',
     title: '陈大帅，元气满满，加油求学',
@@ -185,6 +186,7 @@ const TEMPLATE_CONFIG = [
       {{poison_chicken_soup.DATA}} 
     `
   },
+  */
 ]
 
 module.exports = TEMPLATE_CONFIG
