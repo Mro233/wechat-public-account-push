@@ -178,7 +178,7 @@ const USER_CONFIG = {
     },
     {
        name: '燕砸',
-      id: '',
+      id: 'f08ed1408f3b430cbee03a91df1213f6',
       useTemplateId: '0003',
       province: '广东',
       city: '深圳',
@@ -187,10 +187,10 @@ const USER_CONFIG = {
       openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
       festivals: [
         {
-          type: '*生日', name: '燕砸', year: '2004', date: '08-23', isShowAge: true,
+          type: '*生日', name: '燕砸', year: '2007', date: '07-11', isShowAge: true,
         },
         {
-          type: '*生日', name: '飞飞', year: '2001', date: '08-06', 
+          type: '*生日', name: '飞飞', year: '2002', date: '08-06', 
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
