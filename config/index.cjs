@@ -202,58 +202,7 @@ const USER_CONFIG = {
       ],
       courseSchedule: null
     },
-    {
-      name: '陈大帅',
-      id: '',
-      useTemplateId: '0005',
-      province: '重庆',
-      city: '南岸',
-      horoscopeDate: '10-04',
-      horoscopeDateType: '今日',
-      openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
-      festivals: [
-        {
-          type: '*生日', name: '陈大帅', year: '2000', date: '09-12', isShowAge: true,
-        },
-        {
-          type: '*生日', name: '飞飞', year: '1999', date: '08-06', isShowAge: true,
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '节日', name: '第一次认识', year: '2019', date: '08-30',
-        }
-      ],
-      customizedDateList: [
-        { keyword: 'see_day', date: '2019-08-30' },
-      ],
-      courseSchedule: null
-    },
-        {
-       name: '小惠',
-      id: '6cad923300d1445bb98992696e9bcb46',
-      useTemplateId: '',
-      province: '重庆',
-      city: '江津',
-      horoscopeDate: '12-25',
-      horoscopeDateType: '今日',
-      openUrl: 'https://user.qzone.qq.com/1713404466/infocenter',
-      festivals: [
-        {
-          type: '*生日', name: '小惠', year: '2004', date: '11-14', isShowAge: true,
-        },
-        {
-          type: '*生日', name: '飞飞', year: '2001', date: '08-06', 
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '节日', name: '第一次见面', year: '2022', date: '10-29',
-        }   
-      ],
-      customizedDateList: [
-        { keyword: 'see_day', date: '2022-10-29' },
-      ],
-      courseSchedule: null
-    },
+    
     // 你可以不断按格式往下增加
     // ...
   ],
